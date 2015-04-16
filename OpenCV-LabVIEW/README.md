@@ -231,10 +231,10 @@ The method to solve this problem, is to use ``Functions > Connectivity > Librari
 
 To convert the image correctly, a subVI called ``IMAQ Image Datatype to Image Cluster`` is needed. It is not explicitly in ``Functions > Vision and Motion``. It is in ``C:\Program Files\National Instruments\LabVIEW 2013\vi.lib\vision\DatatypeConversion.lib``.
 
-![Void pointer](imaq_image_datatype_to_image_cluster.png "")
+![Void pointer](images/imaq_image_datatype_to_image_cluster.png "")
 
 After these settings, the code should work.
 
-![LabVIEW runtime](labview_runtime.png "")
+![LabVIEW runtime](images/labview_runtime.png "")
 
-![LabVIEW block diagram](labview_block_diagram.png "")
+![LabVIEW block diagram](images/labview_block_diagram.png "")
