@@ -13,25 +13,25 @@
 
 #### OpenCV
 
-openCVªºwindowsª©ªº¤@­Ó¯S§O¤§³B¡A¬O¦³¹ïvisual studio¤@¨Çª©¥»ªºpre-compile¡]¤ñ¦p2.4.10¦³¤ä«ùvc10/11/12ªºx86©Mx64¡^¡Cexe´X¥G¥u¬O³Qextract¨ì«ü©w¦ì¸m¡]¤£½T©w¬°¤°»ò¡A¦ı»İ­nadmin¹B¦æ¡^¡C§Úextract¤§«á¸Ë¨ì¤F``C:\Program Files\opencv\``¡C
+openCVçš„windowsç‰ˆçš„ä¸€å€‹ç‰¹åˆ¥ä¹‹è™•ï¼Œæ˜¯æœ‰å°visual studioä¸€äº›ç‰ˆæœ¬çš„pre-compileï¼ˆæ¯”å¦‚2.4.10æœ‰æ”¯æŒvc10/11/12çš„x86å’Œx64ï¼‰ã€‚exeå¹¾ä¹åªæ˜¯è¢«extractåˆ°æŒ‡å®šä½ç½®ï¼ˆä¸ç¢ºå®šç‚ºä»€éº¼ï¼Œä½†éœ€è¦adminé‹è¡Œï¼‰ã€‚æˆ‘extractä¹‹å¾Œè£åˆ°äº†``C:\Program Files\opencv\``ã€‚
 
-¦pªG¥u¬O¥´ºâ¥Îvc¡A¥Î[³o­Ólink](http://docs.opencv.org/doc/tutorials/introduction/windows_install/windows_install.html#windowssetpathandenviromentvariable)³Ì«á¤@¬q³]¥ş§½path¡C¦b§Ú§¹¥ş¤£ª¾¹D«ç»ò¥ÎªºÁcÅé¤¤¤åwindows 7¤W¡A¥i¥H¦bsearch¨º¸Ì¿épath¡AµM«á¥X²{ªº¡y½s¿è¨t²ÎÀô¹ÒÅÜ¼Æ¡z´N¬O¤F¡C²K¤J``OPENCV_DIR``¨Ã©w¸q``C:\Program Files\opencv\build\x86\vc12``¡A¥¦ªº®ÄªG©M
+å¦‚æœåªæ˜¯æ‰“ç®—ç”¨vcï¼Œç”¨[é€™å€‹link](http://docs.opencv.org/doc/tutorials/introduction/windows_install/windows_install.html#windowssetpathandenviromentvariable)æœ€å¾Œä¸€æ®µè¨­å…¨å±€pathã€‚åœ¨æˆ‘å®Œå…¨ä¸çŸ¥é“æ€éº¼ç”¨çš„ç¹é«”ä¸­æ–‡windows 7ä¸Šï¼Œå¯ä»¥åœ¨searché‚£è£¡è¼¸pathï¼Œç„¶å¾Œå‡ºç¾çš„ã€ç·¨è¼¯ç³»çµ±ç’°å¢ƒè®Šæ•¸ã€å°±æ˜¯äº†ã€‚æ·»å…¥``OPENCV_DIR``ä¸¦å®šç¾©``C:\Program Files\opencv\build\x86\vc12``ï¼Œå®ƒçš„æ•ˆæœå’Œ
 
 ```shell
 setx -m OPENCV_DIR "C:\Program Files\opencv\build\x86\vc12"
 ```
 
-¬O¤@¼Ëªº¡C»İ­n½T»{¤@¤Uvcªºª©¥»¡A¤ñ¦p§Ú¬Ovisual studio community 2013 == vc12¡A¥H¤Î¦]¬°¬O32 bit Windows¡A©Ò¦³¥Îx86¡C°£¤F³o­Ó¡AÁÙ­n¦b``PATH``¤U­±¥[¤@¶µ``%OPENCV_DIR%\bin``¡C
+æ˜¯ä¸€æ¨£çš„ã€‚éœ€è¦ç¢ºèªä¸€ä¸‹vcçš„ç‰ˆæœ¬ï¼Œæ¯”å¦‚æˆ‘æ˜¯visual studio community 2013 == vc12ï¼Œä»¥åŠå› ç‚ºæ˜¯32 bit Windowsï¼Œæ‰€æœ‰ç”¨x86ã€‚é™¤äº†é€™å€‹ï¼Œé‚„è¦åœ¨``PATH``ä¸‹é¢åŠ ä¸€é …``%OPENCV_DIR%\bin``ã€‚
 
-¤§«á³]library¥i¥H°ò¥»follow[³o­Ólink](http://docs.opencv.org/doc/tutorials/introduction/windows_visual_studio_Opencv/windows_visual_studio_Opencv.html)¡C°ß¤@ªº®t§O¬O¡Aglobal library¦b2010¤§«áÅÜ±o«ÜÃø³]¡A¤ñ¦p«ö[¥¦](http://blogs.msdn.com/b/vsproject/archive/2009/07/07/vc-directories.aspx)»¡±o¡AconsoleAppªº¸Ü¨ä¹ê´N¬O·s¶}­Óproject¡C©Ò¥H´N·s¶}­Óproject¡A«ö·Ó¤W­±¨º­Ólinkªº»¡ªk§âlibrary³]¦n¡C
+ä¹‹å¾Œè¨­libraryå¯ä»¥åŸºæœ¬follow[é€™å€‹link](http://docs.opencv.org/doc/tutorials/introduction/windows_visual_studio_Opencv/windows_visual_studio_Opencv.html)ã€‚å”¯ä¸€çš„å·®åˆ¥æ˜¯ï¼Œglobal libraryåœ¨2010ä¹‹å¾Œè®Šå¾—å¾ˆé›£è¨­ï¼Œæ¯”å¦‚æŒ‰[å®ƒ](http://blogs.msdn.com/b/vsproject/archive/2009/07/07/vc-directories.aspx)èªªå¾—ï¼ŒconsoleAppçš„è©±å…¶å¯¦å°±æ˜¯æ–°é–‹å€‹projectã€‚æ‰€ä»¥å°±æ–°é–‹å€‹projectï¼ŒæŒ‰ç…§ä¸Šé¢é‚£å€‹linkçš„èªªæ³•æŠŠlibraryè¨­å¥½ã€‚
  
-°ò¥»³oÃä­«­nªº¬O¤T­Ófolder¡A
+åŸºæœ¬é€™é‚Šé‡è¦çš„æ˜¯ä¸‰å€‹folderï¼Œ
  
-lib/¤@¸s.lib
-bin/¤@¸s.dll
-include/¤@¸s.h
+lib/ä¸€ç¾¤.lib
+bin/ä¸€ç¾¤.dll
+include/ä¸€ç¾¤.h
  
-«e¨â­Ó¬Ocompile±oªº¡A³oÃä°½Ãi¤£compile¡A´N¦b``C:\Program Files\opencv\build\x86\vc12``¤U­±¡C¹ï©ó³oÃäªº±¡§Î¡A·ÓµÛ¤§«e¨º­Ólink§âlibrary¦ì¸m¤@¤@¶ñ¤J¸Ó¶iªºªÅ¡Cª`·Ndebug©Mreleaseªºproject property¬O¿W¥ßªº¡A­n¤À§O¶ñ¤J¡C¦]¬°Visual StudioªºRedistributable Packages¥u¤ä«ùreleaseª©¡A©Ò¥H³oÃä¥u³]¸mrelease¡C¹ï©óreleaseª©¡A¨ãÅé»¡(1)``Property > Configuration Properties > C/C++ > General > Additional Include Dictionaries``¤U¶ñ¤J``$(OPENCV_DIR)\..\..\include``¡A(2)``Property > Configuration Properties > Linker > General > Additional Library Dictionaries``¤U¶ñ¤J``$(OPENCV_DIR)\lib``¡A(3)``Property > Configuration Properties > Linker > Input > Additional Dependencies``¤U¶ñ¤J
+å‰å…©å€‹æ˜¯compileå¾—çš„ï¼Œé€™é‚Šå·æ‡¶ä¸compileï¼Œå°±åœ¨``C:\Program Files\opencv\build\x86\vc12``ä¸‹é¢ã€‚å°æ–¼é€™é‚Šçš„æƒ…å½¢ï¼Œç…§è‘—ä¹‹å‰é‚£å€‹linkæŠŠlibraryä½ç½®ä¸€ä¸€å¡«å…¥è©²é€²çš„ç©ºã€‚æ³¨æ„debugå’Œreleaseçš„project propertyæ˜¯ç¨ç«‹çš„ï¼Œè¦åˆ†åˆ¥å¡«å…¥ã€‚å› ç‚ºVisual Studioçš„Redistributable Packagesåªæ”¯æŒreleaseç‰ˆï¼Œæ‰€ä»¥é€™é‚Šåªè¨­ç½®releaseã€‚å°æ–¼releaseç‰ˆï¼Œå…·é«”èªª(1)``Property > Configuration Properties > C/C++ > General > Additional Include Dictionaries``ä¸‹å¡«å…¥``$(OPENCV_DIR)\..\..\include``ï¼Œ(2)``Property > Configuration Properties > Linker > General > Additional Library Dictionaries``ä¸‹å¡«å…¥``$(OPENCV_DIR)\lib``ï¼Œ(3)``Property > Configuration Properties > Linker > Input > Additional Dependencies``ä¸‹å¡«å…¥
 
 ```
 opencv_calib3d2410.lib
@@ -55,7 +55,7 @@ opencv_video2410.lib
 opencv_videostab2410.lib
 ```
 
-µM«á´NÀ³¸Ó¯àrun hello world¤F¡C°ß¤@­nª`·Nªº¬O¡Aadd .lib fileªº®É­Ô¡A­n°O±o§âª©¥»¸¹¬O¤£¬Odebug versionªº``*d``§ï¹ï¡C
+ç„¶å¾Œå°±æ‡‰è©²èƒ½run hello worldäº†ã€‚å”¯ä¸€è¦æ³¨æ„çš„æ˜¯ï¼Œadd .lib fileçš„æ™‚å€™ï¼Œè¦è¨˜å¾—æŠŠç‰ˆæœ¬è™Ÿä»¥åŠæ˜¯ä¸æ˜¯debug versionçš„``*d``æ”¹å°ã€‚
 
 #### NI Vision Module
 
